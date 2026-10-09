@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The ZELLART — Handmade Zellige tables and fountains from Fez</title>
+  <meta name="description" content="Handmade Zellige tables and fountains, shaped one tile at a time in Fez, Morocco. Made to order and shipped worldwide." />
+  <meta property="og:title" content="The ZELLART — Handmade Zellige from Fez" />
+  <meta property="og:description" content="Hand-cut Zellige tables and fountains, made to order in Fez." />
+  <meta property="og:image" content="images/fez-round.jpg" />
+  <link rel="icon" href="images/logo-head.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+
+  <div class="topbar" data-site="topbar"></div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="brand">
+        <img src="images/logo.jpeg" alt="The ZELLART" class="brand-logo" />
+        <span class="brand-name">The ZELLART</span>
+      </a>
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <a href="#collection" class="nav-link">Collection</a>
+        <a href="#atelier" class="nav-link">The atelier</a>
+        <a href="#story" class="nav-link">Our story</a>
+        <a href="#bespoke" class="nav-link">Bespoke</a>
+      </nav>
+      <a class="btn btn-primary" data-wa="header" target="_blank" rel="noreferrer">Chat on WhatsApp</a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5h16M4 12h16M4 19h16"/></svg>
+      </button>
+    </div>
+    <nav class="nav-mobile" hidden aria-label="Mobile navigation">
+      <a href="#collection">Collection</a>
+      <a href="#atelier">The atelier</a>
+      <a href="#story">Our story</a>
+      <a href="#bespoke">Bespoke</a>
+      <a data-wa="mobile" target="_blank" rel="noreferrer">Chat on WhatsApp</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="top" class="hero">
+    <img class="hero-bg" src="images/fez-round.jpg" alt="Round turquoise Zellige mosaic table" fetchpriority="high" />
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <div class="eyebrow"><span class="line"></span><span data-site="hero.eyebrow"></span></div>
+        <h1 class="hero-title" data-site="hero.title"></h1>
+        <p class="hero-sub" data-site="hero.subtitle"></p>
+        <div class="hero-actions">
+          <a href="#collection" class="btn btn-primary">See the collection</a>
+          <a data-wa="bespoke" class="btn btn-ghost" target="_blank" rel="noreferrer">Request a quote</a>
+        </div>
+        <div class="hero-stats" data-site="hero.stats"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust strip -->
+  <section class="trust" aria-label="Why order from us">
+    <div class="container trust-grid">
+      <div class="trust-item"><strong>Shipped worldwide</strong><span>Door to door, fully insured</span></div>
+      <div class="trust-item"><strong>Made to order</strong><span>Usually 4–6 weeks</span></div>
+      <div class="trust-item"><strong>Secure packing</strong><span>Carefully packed for the journey</span></div>
+      <div class="trust-item"><strong>Direct from the makers</strong><span>Reply within one day on WhatsApp</span></div>
+    </div>
+  </section>
+
+  <!-- Collection -->
+  <section id="collection" class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow-text" data-site="collection.eyebrow"></span>
+          <h2 class="section-title" data-site="collection.title"></h2>
+        </div>
+        <p class="section-note" data-site="collection.note"></p>
+      </div>
+      <div class="filters reveal">
+        <button class="filter-btn active" data-filter="All">All</button>
+        <button class="filter-btn" data-filter="Tables">Tables</button>
+        <button class="filter-btn" data-filter="Fountains">Fountains</button>
+        <span class="filter-count" data-filter-count></span>
+      </div>
+      <div class="product-grid" data-products></div>
+    </div>
+  </section>
+
+  <!-- How ordering works -->
+  <section id="how" class="section section-white">
+    <div class="container">
+      <h2 class="section-title reveal">How ordering works</h2>
+      <ol class="how-grid">
+        <li class="how-step"><span class="how-n">1</span><h3>Talk</h3><p>Tell us the space, the size and the colors you love.</p></li>
+        <li class="how-step"><span class="how-n">2</span><h3>Design</h3><p>We draw the pattern and confirm the price with you.</p></li>
+        <li class="how-step"><span class="how-n">3</span><h3>Make</h3><p>The artisans cut and set every tile by hand.</p></li>
+        <li class="how-step"><span class="how-n">4</span><h3>Ship</h3><p>Your piece is packed, insured and sent to your door.</p></li>
+      </ol>
+      <a class="btn btn-primary" data-wa="header" target="_blank" rel="noreferrer">Start a conversation</a>
+    </div>
+  </section>
+
+  <!-- Our promise -->
+  <section id="promise" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Our promise</h2>
+      <ul class="how-grid">
+        <li class="how-step"><h3>Nothing is cut before we talk</h3><p>We start cutting only after we've spoken with you and agreed the design.</p></li>
+        <li class="how-step"><h3>No middlemen</h3><p>You talk directly to the makers, with no warehouse and no hidden costs.</p></li>
+        <li class="how-step"><h3>Insured shipping</h3><p>Every piece is carefully packed and insured from Morocco to your door.</p></li>
+        <li class="how-step"><h3>Care guide and origin</h3><p>Every piece comes with a care guide, and most with a certificate of origin.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Atelier -->
+  <section id="atelier" class="section section-ink">
+    <div class="container atelier-grid">
+      <div class="reveal">
+        <span class="eyebrow-text light" data-site="atelier.eyebrow"></span>
+        <div class="image-wrap atelier-image">
+          <img src="images/atelier.jpg" alt="Zellige artisan assembling tiles" loading="lazy" />
+        </div>
+        <p class="atelier-caption" data-site="atelier.caption"></p>
+      </div>
+      <div class="reveal reveal-delay-1">
+        <h2 class="section-title light" data-site="atelier.title"></h2>
+        <p class="atelier-body" data-site="atelier.body"></p>
+        <div class="steps" data-steps></div>
+        <a class="btn btn-outline" data-wa="atelier" target="_blank" rel="noreferrer">Ask about the craft</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our story -->
+  <section id="story" class="section section-story">
+    <div class="container story-grid">
+      <div class="story-media reveal">
+        <div class="story-video">
+          <video autoplay muted loop playsinline preload="metadata" poster="images/story-poster.jpg">
+            <source src="images/story.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="image-wrap story-small">
+          <img src="images/a.jpg" alt="Hand-cut Zellige tiles" loading="lazy" />
+        </div>
+      </div>
+      <div class="story-text reveal reveal-delay-1">
+        <span class="eyebrow-text accent" data-site="story.eyebrow"></span>
+        <h2 class="section-title" data-site="story.title"></h2>
+        <div data-site="story.paragraphs"></div>
+        <div class="story-values" data-story-values></div>
+        <a class="btn btn-primary" data-wa="story" target="_blank" rel="noreferrer">Talk to the atelier</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews (appear when SITE.reviews in data.js has entries) -->
+  <section id="reviews" class="section section-white" data-reviews-section hidden>
+    <div class="container">
+      <h2 class="section-title">What customers say</h2>
+      <div class="reviews-grid" data-reviews></div>
+    </div>
+  </section>
+
+  <!-- Patterns -->
+  <section class="section-sand">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow-text accent" data-site="patterns.eyebrow"></span>
+          <h2 class="section-title" data-site="patterns.title"></h2>
+        </div>
+        <p class="section-note" data-site="patterns.note"></p>
+      </div>
+      <div class="pattern-grid" data-patterns></div>
+    </div>
+  </section>
+
+  <!-- Bespoke -->
+  <section id="bespoke" class="section section-teal bespoke reveal">
+    <div class="container bespoke-inner">
+      <span class="eyebrow-text light" data-site="bespoke.eyebrow"></span>
+      <h2 class="section-title light center" data-site="bespoke.title"></h2>
+      <p class="bespoke-body" data-site="bespoke.body"></p>
+      <a class="btn btn-light" data-wa="bespoke" target="_blank" rel="noreferrer">Start a bespoke project</a>
+      <p class="bespoke-note" data-site="bespoke.note"></p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <img src="images/logo.jpeg" alt="The ZELLART" class="footer-logo" />
+          <p class="footer-tagline" data-site="footer.tagline"></p>
+        </div>
+        <div>
+          <p class="footer-label">Explore</p>
+          <a href="#collection">Collection</a>
+          <a href="#atelier">The atelier</a>
+          <a href="#story">Our story</a>
+          <a href="#bespoke">Bespoke</a>
+        </div>
+        <div>
+          <p class="footer-label">Find us</p>
+          <a data-wa="footer" target="_blank" rel="noreferrer">WhatsApp the studio</a>
+          <a href="https://instagram.com/thezellart" target="_blank" rel="noreferrer">Instagram</a>
+          <span>Fez, Morocco</span>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 The ZELLART. Made by hand.</span>
+        <span>Tiles that remember the hand</span>
+      </div>
+    </div>
+  </footer>
+
+  <a class="wa-float" data-wa="float" target="_blank" rel="noreferrer">Chat on WhatsApp</a>
+
+  <script src="js/data.js"></script>
+  <script src="js/products-fr.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
